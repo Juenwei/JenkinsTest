@@ -13,7 +13,7 @@ namespace NTest
 			calculator = new Calculator();
 		}
 
-		[Test]
+		[Test(Description = "A Addition Test with valid test case")]
 		[Category("Basic")]
 		public void AdditionCalculationTest()
 		{
@@ -28,7 +28,7 @@ namespace NTest
 			Assert.AreEqual(12, result);
 		}
 
-		[Test]
+		[Test(Description = "A Multiplication Test with valid test case")]
 		[Category("Basic")]
 		public void MultiplicationCalculationTest()
 		{
@@ -43,7 +43,7 @@ namespace NTest
 			Assert.AreEqual(4, result);
 		}
 
-		[Test]
+		[Test(Description = "A Sqaure Test with valid test case")]
 		[Category("Advance")]
 		public void SquareCalculationTest()
 		{
