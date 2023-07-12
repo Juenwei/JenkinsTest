@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSTest", "TestProject2\MSTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTest", "NTest\NTest.csproj", "{19656A19-4090-45FA-A63F-9863F2B8718E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSTest2", "MSTest2\MSTest2.csproj", "{B0D1C98C-371F-449B-A671-09EDE3F3CCB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{19656A19-4090-45FA-A63F-9863F2B8718E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19656A19-4090-45FA-A63F-9863F2B8718E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19656A19-4090-45FA-A63F-9863F2B8718E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0D1C98C-371F-449B-A671-09EDE3F3CCB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D1C98C-371F-449B-A671-09EDE3F3CCB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0D1C98C-371F-449B-A671-09EDE3F3CCB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0D1C98C-371F-449B-A671-09EDE3F3CCB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
