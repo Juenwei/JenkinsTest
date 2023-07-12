@@ -6,7 +6,7 @@ namespace MSTest2
 	[TestClass]
 	public class MSUnitTestImplementation
 	{
-		private Calculator calculator = new Calculator();;
+		private Calculator calculator = new Calculator();
 
 		[TestMethod]
 		[TestCategory("Basic")]
