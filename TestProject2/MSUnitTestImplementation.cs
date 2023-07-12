@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.IO;
 
-namespace TestProject2
+namespace MsUnitTest
 {
 	[TestClass]
 	public class MSUnitTestImplementation
@@ -11,7 +11,7 @@ namespace TestProject2
 		private const string expected = "Hello World!";
 
 		[TestMethod]
-		public void JenkinsTestMethod()
+		public void HelloWorldTestMethod()
 		{
 			using (var stringWriter = new StringWriter())
 			{
