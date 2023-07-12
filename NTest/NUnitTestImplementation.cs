@@ -14,7 +14,8 @@ namespace NTest
 		}
 
 		[Test]
-		public void CalculatorTest()
+		[Category("Basic")]
+		public void AdditionCalculationTest()
 		{
 			// Arrange
 			int a = 5;
@@ -25,6 +26,34 @@ namespace NTest
 
 			// Assert
 			Assert.AreEqual(12, result);
+		}
+
+		[Test]
+		[Category("Basic")]
+		public void MultiplicationCalculationTest()
+		{
+			// Arrange
+			int a = 2;
+			int b = 2;
+
+			// Act
+			int result = calculator.Multiply(a, b);
+
+			// Assert
+			Assert.AreEqual(4, result);
+		}
+
+		[Test]
+		[Category("Advance")]
+		public void SquareCalculationTest()
+		{
+			// Arrange
+			int a = 5;
+			// Act
+			int result = calculator.Square(a);
+
+			// Assert
+			Assert.AreEqual(25, result);
 		}
 
 		[TearDown]
