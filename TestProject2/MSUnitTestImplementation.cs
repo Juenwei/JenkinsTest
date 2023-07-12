@@ -11,6 +11,7 @@ namespace MsUnitTest
 		private const string expected = "Hello World!";
 
 		[TestMethod]
+		[TestCategory("Basic")]
 		public void HelloWorldTestMethod()
 		{
 			using (var stringWriter = new StringWriter())
