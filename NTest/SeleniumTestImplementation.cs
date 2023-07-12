@@ -37,7 +37,7 @@ namespace NTest
 			//click on the Login button
 			IWebElement ele2 = driver.FindElement(By.Name("login"));
 			ele2.Click();
-			Thread.Sleep(10000);
+			Thread.Sleep(5000);
 			Console.Write("login button is clicked \n");
 		}
 
